@@ -1,13 +1,11 @@
 export const Bio = {
   name: "Ro-Hanna Jowallah",
-  roles: [
-    "Software Engineer",
-  ],
+  roles: ["Software Engineer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Ro-Hanna",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1yF8LiejmZn6u0tW84wt036Bt-nRJaDDs/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ro-hanna-j-832008123/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/rishav_chanda/",
@@ -59,8 +57,7 @@ export const skills = [
       },
       {
         name: "Blazor",
-        image:
-          "https://demos.blazorbootstrap.com/images/logo/logo-color.svg",
+        image: "https://demos.blazorbootstrap.com/images/logo/logo-color.svg",
       },
     ],
   },
@@ -78,7 +75,8 @@ export const skills = [
       },
       {
         name: "C#",
-        image: "https://banner2.cleanpng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-1713945971245.webp",
+        image:
+          "https://banner2.cleanpng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-1713945971245.webp",
       },
       {
         name: "Python",
@@ -106,8 +104,7 @@ export const skills = [
     skills: [
       {
         name: "Azure",
-        image:
-          "https://swimburger.net/media/ppnn3pcl/azure.png",
+        image: "https://swimburger.net/media/ppnn3pcl/azure.png",
       },
       {
         name: "AWS",
@@ -116,8 +113,7 @@ export const skills = [
       },
       {
         name: "Git",
-        image:
-          "https://git-scm.com/images/logos/logomark-orange@2x.png",
+        image: "https://git-scm.com/images/logos/logomark-orange@2x.png",
       },
       {
         name: "GitHub",
@@ -126,8 +122,7 @@ export const skills = [
       },
       {
         name: "Postman",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/postman.svg",
+        image: "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
       {
         name: "Netlify",
@@ -168,11 +163,7 @@ export const experiences = [
     company: "Lockheed Martin",
     date: "March 2021 - May 2022",
     desc: "Tracked field performance and performed root-cause analysis, enhancing delivery by 2% through quality programs and KPIs. Prepared reports to identify and resolve issues. At Lockheed Martin, decreased overdue items by 3% using JIRA and Tableau, while advancing performance metrics and fostering stakeholder collaboration.",
-    skills: [
-      "JIRA",
-      "Tableau",
-      "Excel",
-    ],
+    skills: ["JIRA", "Tableau", "Excel"],
   },
   {
     id: 1,
@@ -217,8 +208,7 @@ export const projects = [
     date: "Sep 2024 - Dec 2024",
     description:
       "Curriculum Edge is an innovative web application designed to save teachers time and enhance their productivity by integrating powerful AI-driven tools and modern technologies. Built using React.js and MongoDB, the platform leverages OpenAI APIs to automate tasks such as grading, generating feedback, and lesson planning, allowing educators to focus on what matters most. With Mailgun JS integrated, Curriculum Edge sends automated reminder emails and handles password reset requests, ensuring seamless communication with users. A Stripe endpoint has been incorporated for secure payment processing, supporting subscription-based services and premium features. All data is securely stored on MongoDB, ensuring scalability and reliability, while the app is hosted on an EC2 instance for optimal performance and uptime. This comprehensive platform offers teachers a user-friendly and efficient solution to streamline their administrative tasks, improve workflow, and ultimately dedicate more time to student interaction and educational excellence.",
-    image:
-      "https://i.ibb.co/NjpMtpR/Screenshot-2024-12-17-at-1-44-52-PM.png",
+    image: "https://i.ibb.co/NjpMtpR/Screenshot-2024-12-17-at-1-44-52-PM.png",
     tags: [
       "React.js",
       "AWS",
@@ -242,21 +232,20 @@ export const projects = [
     date: "Sep 2024 - Dec 2024",
     description:
       "Transaction Room is a web app that scrapes real estate data using Python and a rotating proxy, storing it securely in MongoDB. The React-based user interface allows users to browse listings, save favorites, and inquire about deals. The backend is hosted on Azure, with Amazon Incognito ensuring secure and private data scraping. The platform provides a seamless experience for discovering and interacting with real estate opportunities.",
-    image:
-      "https://i.ibb.co/5M9Xwdv/Screenshot-2024-12-17-at-2-06-11-PM.png",
-      tags: [
-        "React.js",
-        "AWS",
-        "MongoDB",
-        "Pyhton",
-        "Azure",
-        "Mailgun JS",
-        "CI/CD",
-        "Stripe",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-      ],
+    image: "https://i.ibb.co/5M9Xwdv/Screenshot-2024-12-17-at-2-06-11-PM.png",
+    tags: [
+      "React.js",
+      "AWS",
+      "MongoDB",
+      "Pyhton",
+      "Azure",
+      "Mailgun JS",
+      "CI/CD",
+      "Stripe",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+    ],
     category: "web app",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://transactionroom.com/",
@@ -267,8 +256,7 @@ export const projects = [
     date: "June 2023 - Jan 2024",
     description:
       "Developed a React-based loan portal, managing user data with a MongoDB backend and integrating payment gateways. Implemented multi-step authentication using Amazon Cognito and hosted the application on AWS for secure, scalable performance.",
-    image:
-      "https://i.ibb.co/GHQVWrm/Screenshot-2024-12-17-at-2-31-27-PM.png",
+    image: "https://i.ibb.co/GHQVWrm/Screenshot-2024-12-17-at-2-31-27-PM.png",
     tags: [
       "React Js",
       "MongoDb",
